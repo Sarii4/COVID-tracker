@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import DataBar from './components/common/aside/DataBar'
 import TopTen from './components/common/aside/TopTen'
-import SideBar from './Components/common/sidebar/SideBar'
+import SideBar from './components/common/sidebar/SideBar'
 import './App.css'
 
 function App() {
