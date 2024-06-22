@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import DataBar from './components/common/aside/DataBar'
 import TopTen from './components/common/aside/TopTen'
-import SideBar from './Components/common/sidebar/Sidebar'
+import SideBar from './Components/common/sidebar/SideBar'
 import './App.css'
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
   return (
     <>
       <nav>
-      </nav>
+        <SideBar/>
+      </nav> 
 
       <aside>
         <h1>COVID-19 Tracker</h1>
