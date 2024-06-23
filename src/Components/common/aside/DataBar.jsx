@@ -14,11 +14,11 @@ color: #1A1662;
 `;
 
 
-const DataBar = (props) => {
+const DataBar = ({title, value}) => {
   return (
     <WorldData>
-      <h3>{props.title}</h3>
-      <h3>{props.value}</h3>
+      <h3>{title}</h3>
+      <h3>{value}</h3>
     </WorldData>
   )
 }
