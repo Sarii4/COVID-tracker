@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import DataBar from './components/common/aside/DataBar'
-import TopTen from './components/common/aside/TopTen'
-import SideBar from './components/common/sidebar/SideBar'
+
+import DataBar from './Components/common/aside/DataBar'
+import TopTen from './Components/common/aside/TopTen'
+import SideBar from './Components/common/sidebar/SideBar'
 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -46,7 +46,7 @@ function App() {
   )
 }
 
-export default App
+export default App;
 
 
 
