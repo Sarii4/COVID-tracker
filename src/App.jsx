@@ -6,8 +6,9 @@ import TopTen from './Components/common/aside/TopTen'
 import './App.css'
 
 function App() {
-
-
+  return (
+    <>
+      
   return (
     <>
       <nav>
@@ -33,15 +34,6 @@ function App() {
         </article>
 
       </aside>
-
-
-
-      <main>
-
-      </main>
-
-
-
     </>
   )
 }
