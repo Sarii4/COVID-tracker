@@ -7,7 +7,8 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.75;
     margin: 0;
     background-color:  #171133;
 }
