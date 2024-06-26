@@ -5,8 +5,13 @@ export const Phone = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
     & img{
         height: 520px;
+        @media (max-width: 600px) {
+        max-height: 50%;
+        align-items: center;
+    }
     }
 `
 
