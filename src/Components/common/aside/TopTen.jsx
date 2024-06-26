@@ -18,7 +18,7 @@ border-radius: 5px;
 const TopTen = (props) => {
   return (
     <TopCountry>
-      <img src={props.flag} title={props.country} width={50}></img>
+      <img src={props.flag} alt={props.country} width={50}></img>
       <h3>{props.country}</h3>
       <h3>{props.value}</h3>
     </TopCountry>

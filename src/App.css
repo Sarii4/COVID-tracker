@@ -18,15 +18,18 @@ nav{
   justify-content: start;
   padding: 10px;
   background-color: #f7f8fc;
+  position: fixed;
   }
 
 aside{
   width: 360px;
   height: auto;
   padding: 20px;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
+  position: static;
 
   }
