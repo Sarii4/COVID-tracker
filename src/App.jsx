@@ -1,15 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import DataBar from './Components/common/aside/DataBar'
+import TopTen from './Components/common/aside/TopTen'
+//import SideBar from './Components/common/sidebar/SideBar'
+
 import './App.css'
 
 function App() {
-
   return (
     <>
       
+  return (
+    <>
+      <nav>
+        <SideBar/>
+      </nav> 
+
+      <aside>
+        <h1>COVID-19 Tracker</h1>
+        <section>
+          <DataBar title="Total Case" value="3333" />
+          <DataBar title="Active Case" value="3333" />
+          <DataBar title="Recovered Case" value="3333"/>
+          <DataBar title="Deaths Case" value="3333" />
+        </section>
+
+        <article>
+          <h2>Top 10 Country</h2>
+          <TopTen country="USA" value="3333" />
+          <TopTen country="Spain" value="3333" />
+          <TopTen country="Italy" value="3333" />
+          <TopTen country="USA" value="3333" />
+          <TopTen country="USA" value="3333" />
+        </article>
+
+      </aside>
     </>
   )
 }
 
-export default App
+export default App;
+
+
+
+
+
+
+
+
