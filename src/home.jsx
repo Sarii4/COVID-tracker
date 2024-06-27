@@ -13,6 +13,9 @@ import data from './utils/data.json';
 
 
 const Home = () =>{
+    const componente3Data = data.home.find(
+        (item) => item.component === 3
+      ).elements;
     return(
         <>
             <>
