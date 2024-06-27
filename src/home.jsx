@@ -8,10 +8,14 @@ import Blog2 from './assets/images/blog-2.jpg';
 import Blog3 from './assets/images/blog-3.jpg';
 import { Section5,Section6, Section7,SectionCarousel,Titulos } from "./styled/styledSections";
 import Carousel from './Components/Carousel/Carousel';
+import data from './utils/data.json';
 
 
 
 const Home = () =>{
+    const componente3Data = data.home.find(
+        (item) => item.component === 3
+      ).elements;
     return(
         <>
             <>
