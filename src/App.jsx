@@ -1,4 +1,9 @@
 
+//import SectionDownload1 from "../src/components/Section-Download-1/Section-Download-1"
+
+
+  
+
 import DataBar from './Components/common/aside/DataBar'
 import TopTen from './Components/common/aside/TopTen'
 import SideBar from './Components/common/sidebar/SideBar'
@@ -9,6 +14,9 @@ function App() {
       
   return (
     <>
+
+        //<SectionDownload1/> 
+
       <nav>
         <SideBar/>
       </nav> 
@@ -32,16 +40,9 @@ function App() {
         </article>
 
       </aside>
+
     </>
   )
 }
 
 export default App;
-
-
-
-
-
-
-
-

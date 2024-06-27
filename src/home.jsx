@@ -1,3 +1,4 @@
+import SectionDownload1 from "./components/Section-Download-1/Section-Download-1";
 import SectionDownload3 from "./Components/Section-Download-3/Section-Download-3";
 import SectionPhone from "./Components/SectionPhone/SectionPhone";
 import FrequentlyAsked from "./Components/Frequently-Asked/FrequentlyAsked";
@@ -19,7 +20,10 @@ const Home = () =>{
     return(
         <>
             <>
-                <>       
+                <>  
+                <SectionDownload1>
+                    </SectionDownload1>     
+                    
             <Titulos>
                 <h2>App Feature</h2>
                 <h1>Basic Feature You Will Get When You Use</h1>
