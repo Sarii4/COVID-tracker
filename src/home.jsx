@@ -29,7 +29,7 @@ const Home = () =>{
         {componente3Data.map((item, index) => (
                         <Carousel
                             key={index}
-                            url={`../src/assets/${item.image}`}
+                            url={`../src/assets/images/${item.image}`}
                             title={item.title}
                             text={item.paragraph}
                         />
