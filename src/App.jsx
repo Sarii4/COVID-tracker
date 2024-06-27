@@ -7,7 +7,7 @@ import useApi from './services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from './config/urls';
 import './App.css'
 
-function App() {
+function App()
 
   const dataTotal = useApi(API_WORLD_TOTAL);
   console.log(dataTotal);
@@ -24,6 +24,9 @@ function App() {
 
   //console.log(Country(2).country);
 
+  return (
+    <>
+      
   return (
     <>
       <nav>
