@@ -6,7 +6,8 @@ import Phone1 from './assets/images/phone-1.png';
 import Blog1 from './assets/images/blog-1.jpg';
 import Blog2 from './assets/images/blog-2.jpg';
 import Blog3 from './assets/images/blog-3.jpg';
-import { Section5,Section6, Section7,Titulos } from "./styled/styledSections";
+import { Section5,Section6, Section7,SectionCarousel,Titulos } from "./styled/styledSections";
+import Carousel from './Components/Carousel/Carousel';
 
 
 
@@ -14,7 +15,23 @@ const Home = () =>{
     return(
         <>
             <>
-                <>
+                <>       
+            <Titulos>
+                <h2>App Feature</h2>
+                <h1>Basic Feature You Will Get When You Use</h1>
+            </Titulos>
+                <SectionCarousel>
+        
+        {componente3Data.map((item, index) => (
+                        <Carousel
+                            key={index}
+                            url={`../src/assets/${item.image}`}
+                            title={item.title}
+                            text={item.paragraph}
+                        />
+                    ))}      
+
+            </SectionCarousel>         
                 <Titulos>
                 <h2>Faqs</h2>
                 <h1>Frequently Asked <br /> Questions</h1>

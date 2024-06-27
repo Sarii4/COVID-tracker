@@ -1,7 +1,7 @@
 
 import DataBar from './Components/common/aside/DataBar'
 import TopTen from './Components/common/aside/TopTen'
-//import SideBar from './Components/common/sidebar/SideBar'
+import SideBar from './Components/common/sidebar/SideBar'
 
 import './App.css'
 
