@@ -1,5 +1,5 @@
 
-//import SectionDownload1 from "../src/components/Section-Download-1/Section-Download-1"
+
 
 
   
@@ -14,9 +14,6 @@ function App() {
       
   return (
     <>
-
-        //<SectionDownload1/> 
-
       <nav>
         <SideBar/>
       </nav> 

@@ -54,4 +54,4 @@ const SectionDownload1 = () => {
   );
 };
 
-export default SectionDownload1;
+export default SectionDownload1
