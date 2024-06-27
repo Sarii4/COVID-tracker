@@ -22,6 +22,15 @@ export const Titulos = styled.div`
     }
     
 `
+export const SectionCarousel = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+`
+
+export const Body = styled.div`
+background-color:#171133;
+`
 
 export const Section5 = styled.div`
     display: flex;
@@ -34,9 +43,7 @@ export const Section5 = styled.div`
     @media (max-width: 600px) {
         margin-bottom: 20px;
     }
-`
-
-
+`;
 
 export const Section6 = styled.div`
     display: flex;

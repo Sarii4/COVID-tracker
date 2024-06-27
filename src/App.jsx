@@ -5,7 +5,8 @@ import SideBar from './Components/common/sidebar/SideBar'
 
 import './App.css'
 
-function App() {
+function App() {   
+      
   return (
     <>
       <nav>
