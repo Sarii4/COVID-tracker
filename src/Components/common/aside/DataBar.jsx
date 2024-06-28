@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 const WorldData = styled.div`
 display: flex;
@@ -8,19 +8,27 @@ padding: 20px;
 width: 320px;
 height: 50px;
 margin-bottom: 10px;
-//background-color: ${(props.hasColor)};
-//border: blue solid 3px;
 border-radius: 5px;
 color: #1A1662;
-//background-color: lightblue;
-//border: 3px solid ${(props) => (props.hasColor? "yellow" : "#3c7f8b")};
+background-color: ${(props => props.fondo)};
 
+&:hover {
+  scale: 1.2;
+  border: 3px solid ${(props => props.hasColor? "none" : "red")};
+}
 `;
+// css={"background-color: ${props.fondo}"}> */}
+//hasColor={hasColor} onClick={() => setHasColor(!hasColor)}
 
-const DataBar = ({ title, value, fondo }) => {
+const DataBar = ({ title, value }) => {
   const [hasColor, setHasColor] = useState(false);
+  const [fondo, setFondo] = useState(false);
+  
     return (
-    <WorldData css={"background-color: pink;"} > 
+    <WorldData 
+      fondo={fondo} onChange ={() => setFondo(!fondo)}
+      hasColor={hasColor} onClick={() => setHasColor(!hasColor)}
+    > 
       <h3>{title}</h3>
       <h3>{value}</h3>
     </WorldData>
@@ -29,5 +37,3 @@ const DataBar = ({ title, value, fondo }) => {
 
 export default DataBar
 
-// css={"background-color: ${props.fondo}"}> */}
-//hasColor={hasColor} onClick={() => setHasColor(!hasColor)}
