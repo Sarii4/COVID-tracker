@@ -111,4 +111,11 @@ We are a team of 4-5 front-end developers working collaboratively using SCRUM me
 
 ## Expressions of Gratitude 🎁
 
-To show our appreciation for the hard work and dedication, we invite the team to enjoy a sushi platter together!
+To show our appreciation for the hard work and dedication, we hope to be invited to enjoy a sushi platter together! Thank you for your commitment and teamwork!
+
+
+
+
+
+
+
