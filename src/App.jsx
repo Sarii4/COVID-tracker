@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import DataBar from './components/common/aside/DataBar'
 import TopTen from './components/common/aside/TopTen'
-import SideBar from './components/common/sidebar/SideBar'
+//import SideBar from './components/common/sidebar/Sidebar'
 
 import './App.css'
 
@@ -17,7 +17,7 @@ function App() {
       <aside>
         <h1>COVID-19 Tracker</h1>
         <section>
-          <DataBar title="Total Case" value="3333" hasColor={("blue")} />
+          <DataBar title="Total Case" value="3333" fondo={("blue")} />
           <DataBar title="Active Case" value="3333" />
           <DataBar title="Recovered Case" value="3333"/>
           <DataBar title="Deaths Case" value="3333" />
