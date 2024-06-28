@@ -28,9 +28,7 @@ export const SectionCarousel = styled.div`
     flex-wrap: wrap;
 `
 
-export const Body = styled.div`
-background-color:#171133;
-`
+
 
 export const Section5 = styled.div`
     display: flex;
@@ -47,6 +45,7 @@ export const Section5 = styled.div`
 
 export const Section6 = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 450px;
     margin-top: 250px;
@@ -54,25 +53,14 @@ export const Section6 = styled.div`
     margin-left: 20%;
     padding: 20px;
     border-radius: 10px;
-    @media (max-width: 768px) {
-        margin-top: 100px; 
-        height: auto; 
-        flex-direction: column; 
-        align-items: flex-start; 
-        padding: 10px;
-        width: 95%;
-    }
+    
     & div{
         position: relative;
         & img{
             position: absolute;
             bottom: 50px;
-            right: 40px;
-            height: 500px;
-            @media (max-width: 768px) {
-            margin-right: 0; 
-            margin-bottom: 20px; 
-        }
+            right: 50px;
+            height: 520px;
         }
         & button{
             background-color: #fff;

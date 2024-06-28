@@ -9,7 +9,7 @@ export const Phone = styled.div`
     & img{
         height: 520px;
         @media (max-width: 600px) {
-        max-height: 50%;
+        max-height: 520%;
         align-items: center;
     }
     }

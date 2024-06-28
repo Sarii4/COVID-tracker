@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container6 = styled.div`
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     width: 60%;
     padding: 10px;
