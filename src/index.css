@@ -1,13 +1,7 @@
-:root {
+#root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: grid;
 
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-}
 
 body {
   margin: 0;
@@ -18,3 +12,4 @@ body {
   background-color: #f7f8fc;
 }
 
+}
