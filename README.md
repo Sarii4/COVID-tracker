@@ -62,3 +62,18 @@ Yes, the design is responsive and adaptive, following a mobile-first approach.
 
 ## Farewell
 ***
+
+## Our Team
+***
+##### This is our team: 
+
+<p> <a href="https://github.com/BSN-Asumiko">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Ekaterina**</a></p>
+<p> <a href="https://github.com/GabyRosas">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Gabriela**</a></p>
+<p> <a href="https://github.com/loren-2">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Lorena**</a></p>
+<p> <a href="https://github.com/LauraGDev">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Laura**</a></p>
+<p> <a href="https://github.com/castellanorn">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Rosse**</a></p>
