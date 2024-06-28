@@ -1,14 +1,13 @@
-# COVID TRACKER
-
+# 🦠COVID TRACKER🦠
 ### Index
-1. General Information
-2. Technical Competencies
-3. Technologies
-4. Tools
-5. Installation
-6. FAQ
+- [General Information](#general-information) 📝
+- [Technical Competencies](#technical-competencies)  💪🏼
+- [Technologies](#technologies) 📲
+- [Tools](#tools) 💅🏼
+- [Installation](#installation) 🛠️
+- [Farewell](#farewell) 🙏🏼
 
-## 1. General Information
+##  General Information 
 ***
 COVID Tracker is a project developed by our consulting firm to provide an interactive dashboard displaying real-time data on the COVID-19 pandemic using the Disease.sh API. The goal is to offer a data visualization platform with real-time analysis and scalability for future pandemics.
 
@@ -20,7 +19,7 @@ This project aims to:
   
 The design is provided by the client, ensuring no need for mockups or prototypes.
 
-## 2. Technical Competencies
+## Technical Competencies 
 ***
 The project is designed to:
 
@@ -35,17 +34,18 @@ Creating a data visualization user interface: Level 1 - Imitate.
 
 
 
-## 3. Technologies
+##  Technologies 
 ***
 A list of the technologies used in the project:
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5): Version 5.0
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS): Version 3.0
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): Version ES14
-* [Sass](https://sass-lang.com/): Version 1.77.2
-* [React](https://react.dev/): A JavaScript library for building user interfaces.
+* [Styled Components](https://styled-components.com/): Styling our way with speed, strong typing, and flexibility Version 1.77.2.
+* [React](https://react.dev/): Version 1.77.2.
 
   
-## 4. Tools
+##  Tools 
+
 ***
 A list of the tools used in the project:
 
@@ -53,8 +53,10 @@ A list of the tools used in the project:
 * [Git](https://git-scm.com/): Version control system
 * [Github](https://github.com/):  Hosting for software development and version control using Git.
 * [Netlify](https://www.netlify.com/): A platform for deploying web projects.
+* [Editor.md](https://pandao.github.io/editor.md/en.html) 
 
-## 5. Installation
+
+##  Installation 
 ***
 If you wish to contribute to this project, please follow these steps:
 
@@ -66,23 +68,12 @@ If you wish to contribute to this project, please follow these steps:
 (`git push origin feature-branch`).
 4. Create a new Pull Request.
 
-## 6. FAQ
-***
 
-1. **Where can I report bugs?**
-   You can report bugs by creating an "issue" on GitHub.
-
-2. **What technologies are used in the project?**
-   The project uses HTML5, CSS3, JavaScript, and Sass.
-
-3. **Is the project mobile-friendly?**
-Yes, the design is responsive and adaptive, following a mobile-first approach.
-
-## 7. Farewell
+##  Farewell 
 ***
 Thank you for taking the time to check out our project! We hope it provides valuable insights and contributes to the better understanding and management of pandemics.
 
-## This is our team:
+## 👩🏽‍💻👩🏻‍💻👩🏽‍💻 is our team 👩🏽‍💻👩🏻‍💻👩🏽‍💻:
 
 ***
  
@@ -107,12 +98,15 @@ Thank you for taking the time to check out our project! We hope it provides valu
    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Shaila**</a></p>
 
 
-We are a team of 4-5 front-end developers working collaboratively using SCRUM methodology to deliver this project within 2 weeks.
+We are a team of 6 front-end developers working collaboratively using SCRUM methodology to deliver this project within 2 weeks.
 
 ## Expressions of Gratitude 🎁
 
-To show our appreciation for the hard work and dedication, we hope to be invited to enjoy a sushi platter together! Thank you for your commitment and teamwork!
+To show our appreciation for the hard work and dedication, we hope to be invited to enjoy a sushi platter together! 
+Thank you for your commitment and teamwork!
 
+
+                               💚💚💚💚💚💚💚💚💚💚💚💚💚💚💚💚💚
 
 
 
