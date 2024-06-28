@@ -8,20 +8,24 @@ const GlobalStyle = createGlobalStyle`
   }
 
 
+
   body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.75;
     font-size: 1rem;
     background-color: #171133;
     display: flex;
-    min-height: 100%;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
   #root {
+    flex: 1;
     width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: inherit;
   }
 
   h1 {
