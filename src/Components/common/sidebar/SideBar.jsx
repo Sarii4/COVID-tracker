@@ -39,7 +39,7 @@ const Logo = styled.img`
 const SideBar = () => {
   return (
     <>
-      <a href=""><Logo src="../../../images/coronavirus.png" width={80} /></a>
+      <a href=""><Logo src="../../../../images/coronavirus.png" width={80} /></a>
       <Icons>
         <StyledIcon><GrAnalytics/></StyledIcon>
         <StyledIcon><TiThMenuOutline/></StyledIcon>

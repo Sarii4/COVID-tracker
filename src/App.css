@@ -31,5 +31,21 @@ aside{
   justify-content: center;
   background-color: #ffffff;
   position: static;
-
   }
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+div {
+  width: 60%;
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+}
