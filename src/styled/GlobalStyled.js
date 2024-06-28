@@ -14,12 +14,11 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
     background-color: #171133;
     display: flex;
-    flex-direction: column;
     min-height: 100%;
   }
 
   #root {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
