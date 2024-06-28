@@ -24,6 +24,7 @@ export const Titulos = styled.div`
     
 `
 export const SectionCarousel = styled.div`
+    width:1440px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
