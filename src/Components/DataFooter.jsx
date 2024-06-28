@@ -4,10 +4,11 @@ import styled from 'styled-components'
 const FooterInfo = styled.div`
     background-color: #ffffff;
     display: flex;
+    align-items: center;
     padding: 20px;
     width: 220px;
     height: 100px;
-    margin: 10px 10px;
+    margin: 5px 5px;
     border-radius: 5px;
     color: #1A1662;
 
@@ -20,7 +21,9 @@ const FooterInfo = styled.div`
 const FooterText = styled.div`
     display: flex;
     flex-direction: column;
-
+    justify-content: start;
+    align-items: center;
+    background-color: #ffffff;
 & h2 {
   margin: 0;
   padding: 0;

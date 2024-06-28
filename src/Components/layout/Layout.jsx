@@ -15,10 +15,7 @@ const Layout = () => {
     console.log(dataCountries);
     const countries = dataCountries.data;
     console.log(countries);
-    //const countriesWithCases = countries?.filter(country => country.cases);
-    //console.log(countriesWithCases);
     const sortedCountries = countries?.sort((a, b) => b.cases - a.cases);
-    console.log(sortedCountries);
     const topTencountries = sortedCountries?.slice(0, 10)
     console.log(topTencountries);
 

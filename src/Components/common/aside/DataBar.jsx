@@ -26,8 +26,8 @@ const DataBar = ({ title, value }) => {
   
     return (
     <WorldData 
-      fondo={fondo} onChange ={() => setFondo(!fondo)}
-      hasColor={hasColor} onClick={() => setHasColor(!hasColor)}
+      fondo={fondo} onClick ={() => setFondo(!fondo)}
+      hasColor={hasColor} onChange={() => setHasColor(!hasColor)}
     > 
       <h3>{title}</h3>
       <h3>{value}</h3>

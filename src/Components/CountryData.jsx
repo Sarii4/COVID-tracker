@@ -17,15 +17,17 @@ const CountryInfo = styled.div`
     border-radius: 5px;
     color: #1A1662;
 
-    &:hover{
-    animation: logo-spin infinite 10s linear;
+    //&:hover{
+    //animation: logo-spin infinite 10s linear;
     @keyframes logo-spin {
     from { transform: rotate(0deg);}
     to { transform: rotate(360deg); }
     }
-}`
+//}
+`;
 
 const CountryData = ({title, value}) => {
+
 
   return (
     <CountryInfo>

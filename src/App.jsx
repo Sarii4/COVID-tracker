@@ -24,9 +24,11 @@ function App()  {
 
   return (
     <>
+    <div>
       <nav>
         <SideBar/>
       </nav> 
+
       <aside>
         <h1>COVID-19 Tracker</h1>
         <section>
@@ -43,16 +45,24 @@ function App()  {
       </aside>
 
       <main>
-        <CountrySelect/>
+        <header>
+          <CountrySelect/>
+          <h2>Updated: January 31, 2022</h2>
+        </header>
         <br/>
-        <div>
-          <CountryData title="Total Cases" value="3333" color="blue" />
-          <CountryData title="Total Deaths" value="3333" color="red" />
-          <CountryData title="Total Recovered" value="3333" color="green" />
-          <CountryData title="Total Active" value="3333" color="cyan" />
-          <CountryData title="New Cases" value="3333" color="orange" />
-          <CountryData title="New Deaths" value="3333" color="redark" />
+        <hr/>
+        <div className='displayCountry'>
+          <div className='dataCountry'>
+            <CountryData title="Total Cases" value="3333" color="blue" />
+            <CountryData title="Total Deaths" value="3333" color="red" />
+            <CountryData title="Total Recovered" value="3333" color="green" />
+            <CountryData title="Total Active" value="3333" color="cyan" />
+            <CountryData title="New Cases" value="3333" color="orange" />
+            <CountryData title="New Deaths" value="3333" color="redark" />
+          </div>
+          <img src="../images/mapamundi.png"></img>
         </div>
+        <br/>
         <footer>
           <DataFooter title="Total Confirmed" value="3333" color="blue"/>
           <DataFooter title="Total Recovered" value="3333" color="green"/>
@@ -62,7 +72,7 @@ function App()  {
         </footer>
         
       </main>
-
+    </div>
     </>
   )
 }
