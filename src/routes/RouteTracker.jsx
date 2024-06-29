@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Layout from '../Components/layout/Layout'
-import Tracker1 from '../Components/pages/Tracker1'
+import Tracker1 from '../pages/Tracker1'
 
 const RouteTracker = () => {
     return (
