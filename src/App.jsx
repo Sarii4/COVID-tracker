@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import DataBar from './components/common/aside/DataBar';
-import TopTen from './components/common/aside/TopTen';
-import SideBar from './components/common/sidebar/SideBar';
+import DataBar from './Components/common/aside/DataBar'
+import TopTen from './Components/common/aside/TopTen'
+import SideBar from './Components/common/sidebar/SideBar'
 //import getData from "./services/getData";
 import useApi from './services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from './config/urls';
@@ -10,7 +10,9 @@ import CountryData from './components/CountryData';
 import CountrySelect from './components/CountrySelect';
 import DataFooter from './components/DataFooter';
 
+
 function App()  {
+
 
   const dataTotal = useApi(API_WORLD_TOTAL);
   console.log(dataTotal);
@@ -20,7 +22,6 @@ function App()  {
   const sortedCountries = countries?.sort((a, b) => b.cases - a.cases);
   const topTencountries = sortedCountries?.slice(0, 10);
   console.log(topTencountries);
-
 
   return (
     <>
@@ -43,6 +44,7 @@ function App()  {
           <TopTen key={0} flag={el?.countryInfo?.flag} country={el?.country} value={el?.cases}/> )}; 
         </article>
       </aside>
+
 
       <main>
         <header>
@@ -77,6 +79,7 @@ function App()  {
   )
 }
 export default App
+
 
 
 

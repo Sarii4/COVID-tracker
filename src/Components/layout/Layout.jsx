@@ -7,7 +7,7 @@ import useApi from '../../services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from '../../config/urls';
 import './layout.css'
 
-const Layout = () => {
+const Layout = ({ children }) => {
 
     const dataTotal = useApi(API_WORLD_TOTAL);
     console.log(dataTotal);
@@ -20,10 +20,11 @@ const Layout = () => {
     console.log(topTencountries);
 
     return (
+
         <>
             <nav>
                 <SideBar/>
-            </nav> 
+            </nav>
             <aside>
                 <h1>COVID-19 Tracker</h1>
                 <section>
@@ -39,7 +40,10 @@ const Layout = () => {
                 </article>
             </aside>
 
-            <main><Tracker/></main>
+            <main>
+                  <Tracker/>
+             </main>
+
         </>
     )
 }
