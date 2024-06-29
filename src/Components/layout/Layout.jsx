@@ -41,8 +41,8 @@ const Layout = ({ children }) => {
             </aside>
 
             <main>
-                  <Tracker/>
-             </main>
+                    <Tracker/>
+            </main>
 
         </>
     )
