@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+
 import useApi from '../../services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from '../../config/urls';
 import SideBar from "../common/sidebar/SideBar";
@@ -43,6 +44,7 @@ const Layout = ({ children }) => {
             <main>
                 < Outlet/>
             </main>
+
         </>
     )
 }
