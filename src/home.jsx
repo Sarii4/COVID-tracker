@@ -1,4 +1,3 @@
-
 import Navbar from "./Components/navbar/navbar"
 import SectionDownload1 from "./Components/section-download-1/Section-Download-1"
 import SectionDownload3 from "./Components/Section-Download-3/Section-Download-3";

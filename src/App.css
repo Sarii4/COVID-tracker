@@ -1,13 +1,13 @@
-#root {
-  max-width: 1280px;
-  margin: 20px;
-  display: flex;
-}
 
 h1, h2 {
   color: #1A1662;
 }
 
+div {
+  display: flex;
+  justify-content: start;
+  background-color: #f7f8fc;
+}
 
 nav{ 
   width: 80px;
@@ -29,7 +29,53 @@ aside{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: start;
   background-color: #ffffff;
   position: static;
-
   }
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: #f7f8fc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.displayCountry {
+  display: flex;
+}
+
+.dataCountry {
+  width: 60%;
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width=900px){
+  aside{
+    display:none;
+  }
+  header{
+    display:flex;
+    flex-direction: column;
+  }
+  .displayCountry{
+    display: flex;
+    flex-direction: column;
+  }
+}
