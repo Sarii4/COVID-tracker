@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import DataBar from './components/common/aside/DataBar'
-import TopTen from './components/common/aside/TopTen'
-import SideBar from './components/common/sidebar/SideBar'
+import DataBar from './Components/common/aside/DataBar'
+import TopTen from './Components/common/aside/TopTen'
+import SideBar from './Components/common/sidebar/SideBar'
 //import getData from "./services/getData";
 import useApi from './services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from './config/urls';
 import './App.css'
 
+
 function App()  {
+
 
   const dataTotal = useApi(API_WORLD_TOTAL);
   console.log(dataTotal);
@@ -22,7 +24,8 @@ function App()  {
   const topTencountries = sortedCountries?.slice(0, 10)
   console.log(topTencountries);
 
-  //console.log(Country(2).country);
+  
+
 
       
   return (
@@ -45,6 +48,7 @@ function App()  {
         </article>
       </aside>
 
+
       <main>
       </main>
 
@@ -52,6 +56,7 @@ function App()  {
   )
 }
 export default App
+
 
 
 
