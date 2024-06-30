@@ -24,10 +24,11 @@ export const Titulos = styled.div`
     
 `
 export const SectionCarousel = styled.div`
-    width:1440px;
+    width:100%;
+    height:250px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    margin-bottom:30px;
 `
 
 
