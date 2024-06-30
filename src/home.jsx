@@ -1,5 +1,6 @@
 import Navbar from "./Components/navbar/navbar"
 import SectionDownload1 from "./Components/section-download-1/Section-Download-1"
+import SectionDownload2 from "./Components/section-download-2/section-download-2"
 import SectionDownload3 from "./Components/Section-Download-3/Section-Download-3";
 import SectionPhone from "./Components/SectionPhone/SectionPhone";
 import FrequentlyAsked from "./Components/Frequently-Asked/FrequentlyAsked";
@@ -25,15 +26,16 @@ const Home = () => {
         <>
             <Navbar />
             <>
-            <GlobalStyle/>
+                <GlobalStyle />
                 <>
-                    <SectionDownload1/>
+                    <SectionDownload1 />
                     <Titulos>
                         <h2>App Feature</h2>
                         <h1>Basic Feature You Will Get When You Use</h1>
                     </Titulos>
                     <SectionCarousel>
-                    {componente3Data.map((item, index) => (
+
+                        {componente3Data.map((item, index) => (
                             <Carousel
                                 key={index}
                                 url={`../src/assets/images/${item.image}`}
@@ -42,6 +44,9 @@ const Home = () => {
                             />
                         ))}
                     </SectionCarousel>
+                    <>
+                        <SectionDownload2 />
+                    </>
                     <Titulos>
                         <h2>Faqs</h2>
                         <h1>Frequently Asked <br /> Questions</h1>
@@ -90,7 +95,7 @@ const Home = () => {
                 </Section7>
             </>
             <>
-            <Footer/>
+                <Footer />
             </>
         </>
     )
