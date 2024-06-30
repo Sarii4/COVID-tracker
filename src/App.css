@@ -1,3 +1,7 @@
+#root{
+  display:flex;
+  justify-content: center;
+}
 
 h1, h2 {
   color: #1A1662;
