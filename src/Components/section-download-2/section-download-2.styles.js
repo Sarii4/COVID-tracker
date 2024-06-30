@@ -1,11 +1,15 @@
 import styled from "styled-components"
 
+export const AbsoluteContainer = styled.section`
+margin-top:5%;
+margin-bottom: 5%;
 
+`;
 
 export const TotalContainer = styled . div`
 display:flex;
 justify-content: space-around;
-background-color: #242674;
+background-color: #171133;
 padding-bottom:35px;
 
 `;
@@ -24,8 +28,8 @@ margin-top:3%;
 
 `;
 export const ImagePhone = styled . img`
-width: 400px;
-height:350px;
+width: 575px;
+height:520px;
 margin-left:-55px;
 
 
@@ -45,6 +49,7 @@ padding:5px;
 export const Number = styled .h3`
 font-size:40px;
 margin:0;
+color:white;
 
 `;
 
@@ -62,7 +67,7 @@ margin-bottom:0;
 export const ListContainer = styled .div`
 display:flex;
 justify-content: space-between;
-background-color:#242674;
+background-color:#171133;
 padding-left:40px;
 padding-right:40px;
 
@@ -85,9 +90,11 @@ font-size: 12px;
 text-transform: uppercase;
 letter-spacing: 1px;
 border: 1px solid transparent;
-width:65%;
-height:30%;
-margin-top:15px;   
+border-radius:6px ;
+width:200px;
+height:59px;
+margin-top:15px; 
+color:white  ;
 
 `;
 
@@ -116,6 +123,7 @@ height: 30px;
 
 export const LeyendNumber = styled.h2`
 font-size:12px;
+color:white;
 
 `;
 

@@ -1,4 +1,3 @@
-
 import Navbar from "./Components/navbar/navbar"
 import SectionDownload1 from "./Components/section-download-1/Section-Download-1"
 import SectionDownload2 from "./Components/section-download-2/section-download-2"
@@ -14,6 +13,8 @@ import { Section5, Section6, Section7, SectionCarousel, Titulos } from "./styled
 import Carousel from './Components/Carousel/Carousel';
 import data from './utils/data.json';
 import GlobalStyle from "./styled/GlobalStyled";
+import Footer from "./Components/footer/footer"
+
 
 
 
@@ -25,16 +26,16 @@ const Home = () => {
         <>
             <Navbar />
             <>
-            <GlobalStyle/>
+                <GlobalStyle />
                 <>
-                    <SectionDownload1/>
+                    <SectionDownload1 />
                     <Titulos>
                         <h2>App Feature</h2>
                         <h1>Basic Feature You Will Get When You Use</h1>
                     </Titulos>
                     <SectionCarousel>
-                    <SectionDownload2 />  
-                    {componente3Data.map((item, index) => (
+
+                        {componente3Data.map((item, index) => (
                             <Carousel
                                 key={index}
                                 url={`../src/assets/images/${item.image}`}
@@ -43,6 +44,9 @@ const Home = () => {
                             />
                         ))}
                     </SectionCarousel>
+                    <>
+                        <SectionDownload2 />
+                    </>
                     <Titulos>
                         <h2>Faqs</h2>
                         <h1>Frequently Asked <br /> Questions</h1>
@@ -89,6 +93,9 @@ const Home = () => {
                         parrafo="What can I do to protect myself and prevent the spread of disease?"
                     />
                 </Section7>
+            </>
+            <>
+                <Footer />
             </>
         </>
     )
