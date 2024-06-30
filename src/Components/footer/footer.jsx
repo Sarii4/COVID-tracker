@@ -1,6 +1,9 @@
-import { FooterWraper, Container ,Row} from "./footer.styles"
-
-
+import { FooterWraper, Container, Row, BottomLogo, ImageLogo, Paragraph, UnorderList, List, Img, BottomWidget, WidgetTitle, ContentParagraph, Li, BottomContainer, LowerFooter,Copyright, Design } from "./footer.styles"
+import LogoWhite from "../../assets/images/LogoWhite.png"
+import FacebookLogo from "../../assets/icons/FacebookLogo.svg"
+import TwitterLogo from "../../assets/icons/TwitterLogo.svg"
+import LinkedinLogo from "../../assets/icons/LinkedinLogo.svg"
+import YoutubeLogo from "../../assets/icons/YoutubeLogo.svg"
 
 
 function Footer() {
@@ -9,94 +12,69 @@ function Footer() {
             <FooterWraper>
                 <Container>
                     <Row>
-                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-8">
-                            <div class="bottom-logo">
-                                <img class="pb-3" src="images/logo-white.png" alt="" />
-                                <p class="parrafo_footer">These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.</p>
-                                <ul class="social-share list-inline mb-4">
-                                    <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="bi bi-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                            <div class="bottom-widget">
-                                <div class="d-flex flex-column align-items-start">
-                                    <h4 class="widget-title">Quick Links</h4>
-                                </div>
-                                <div class="d-flex flex-column align-items-start">
-                                    <a href="#">Prevention</a>
-                                    <a href="#">Qurantine</a>
-                                    <a href="#">About</a>
-                                    <a href="#">Help</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                            <div class="bottom-widget">
-                                <h4 class="widget-title">About</h4>
-                                <div class="d-flex flex-column align-items-start">
-                                    <a href="#">Hand Wash</a>
-                                    <a href="#">Social</a>
-                                    <a href="#">Isolate</a>
-                                    <a href="#">Difference</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                            <div class="bottom-widget">
-                                <h4 class="widget-title">About</h4>
-                                <div class="d-flex flex-column align-items-start">
-                                    <a href="#">Hand Wash</a>
-                                    <a href="#">Social</a>
-                                    <a href="#">Isolate</a>
-                                    <a href="#">Difference</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                            <div class="bottom-widget">
-                                <h4 class="widget-title">Help</h4>
-                                <div class="d-flex flex-column align-items-start">
-                                    <a href="#">Hand Wash</a>
-                                    <a href="#">Social </a>
-                                    <a href="#">Isolate</a>
-                                    <a href="#">Difference</a>
-                                </div>
-                            </div>
-                        </div>
+                        <BottomLogo>
+                            <ImageLogo src={LogoWhite} alt="logo covimap" />
+                            <Paragraph>  These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.</Paragraph>
+                            <UnorderList>
+                                <List>
+                                    <Img src={FacebookLogo} alt="Facebook" />
+                                </List>
+                                <List>
+                                    <Img src={TwitterLogo} alt="Twitter" />
+                                </List>
+                                <List>
+                                    <Img src={LinkedinLogo} alt="Linkedin" />
+                                </List>
+                                <List>
+                                    <Img src={YoutubeLogo} alt="Youtube" />
+                                </List>
+                            </UnorderList>
+                        </BottomLogo >
+                        <BottomContainer>
+                            <BottomWidget>
+                                <WidgetTitle>Quick Links</WidgetTitle>
+                                <ContentParagraph >
+                                    <Li>Prevention</Li>
+                                    <Li>Qurantine</Li>
+                                    <Li>About</Li>
+                                    <Li >Help</Li>
+                                </ContentParagraph>
+                            </BottomWidget>
+                            <BottomWidget>
+                                <WidgetTitle>About</WidgetTitle>
+                                <ContentParagraph>
+                                    <Li>Hand Wash</Li>
+                                    <Li>Social Distance</Li>
+                                    <Li>Isolate</Li>
+                                    <Li>Difference</Li>
+                                </ContentParagraph>
+                            </BottomWidget>
+                            <BottomWidget>
+                                <WidgetTitle>About</WidgetTitle>
+                                <ContentParagraph>
+                                    <Li>Hand Wash</Li>
+                                    <Li>Social Distance</Li>
+                                    <Li>Isolate</Li>
+                                    <Li>Difference</Li>
+                                </ContentParagraph>
+                            </BottomWidget>
+                            <BottomWidget>
+                                <WidgetTitle>Help</WidgetTitle>
+                                <ContentParagraph>
+                                    <Li>Hand Wash</Li>
+                                    <Li>Social Distance</Li>
+                                    <Li>Isolate</Li>
+                                    <Li>Difference</Li>
+                                </ContentParagraph>
+                            </BottomWidget>
+                        </BottomContainer>
                     </Row>
-
                 </Container>
-
-
-                <div class="lower-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="copyright">
-                                    <p>© Copyright 2020. All Rights Reserved</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <div class="copyright float-right">
-                                    <p>Reply by <span>Daniela-Christian-Miguel</span></p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>    
-            </FooterWraper>
+                <LowerFooter>
+                    <Copyright>© Copyright 2020. All Rights Reserved</Copyright>
+                    <Design>Design by <strong>DesignZone</strong></Design>
+                </LowerFooter>
+            </FooterWraper >
         </>
 
 
