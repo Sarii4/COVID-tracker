@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Link } from "react-router-dom"
+import { Link, NavLink} from "react-router-dom"
 import { GrAnalytics, GrAppsRounded, GrLineChart} from "react-icons/gr";
 import { TiThMenuOutline } from "react-icons/ti";
 import { GoFileDirectory,GoComment } from "react-icons/go";
@@ -26,6 +26,15 @@ const Icons = styled.div`
     color: #3639AE;
     margin: 0.625rem 0.313rem;
     cursor: pointer;
+
+    &:hover{
+      color: #FFFFFF;
+      background-color: #3639AE;
+    }
+    &.active {
+      color: #FFFFFF;
+      background-color: #3639AE;
+    }
   `;
 
 const Logo = styled.img` 
@@ -42,8 +51,8 @@ const SideBar = () => {
     <>
       <Link to="/"><Logo src="../../../images/coronavirus.png" width={80} /></Link>
       <Icons>
-        <Link to="/tracker1"><StyledIcon><GrAnalytics/></StyledIcon></Link>
-        <StyledIcon><TiThMenuOutline/></StyledIcon>
+        <NavLink to="/tracker1"><StyledIcon><GrAnalytics/></StyledIcon></NavLink>
+        <NavLink to="/tracker1"><StyledIcon><TiThMenuOutline/></StyledIcon></NavLink>
         <StyledIcon><GrAppsRounded /></StyledIcon>
         <StyledIcon><GoFileDirectory /></StyledIcon>
         <StyledIcon><TfiLayersAlt /></StyledIcon>

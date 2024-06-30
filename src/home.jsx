@@ -1,4 +1,5 @@
 import SectionDownload3 from "./Components/Section-Download-3/Section-Download-3";
+import SectionDownload1 from "./Components/section-download-1/Section-Download-1";
 import SectionPhone from "./Components/SectionPhone/SectionPhone";
 import FrequentlyAsked from "./Components/Frequently-Asked/FrequentlyAsked";
 import MoreInformation from "./Components/MoreInfomation/MoreInfomation";
@@ -10,7 +11,7 @@ import Blog3 from './assets/images/blog-3.jpg';
 import { Section5, Section6, Section7, SectionCarousel, Titulos } from "./styled/styledSections";
 import Carousel from './Components/Carousel/Carousel';
 import data from './utils/data.json';
-import GlobalStyle from "./styled/GlobalStyled";
+import Navbar from './Components/navbar/navbar';
 
 
 
