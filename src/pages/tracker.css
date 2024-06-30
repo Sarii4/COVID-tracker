@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .displayCountry {
+    display: flex;
+  }
+  
+  .dataCountry {
+    width: 60%;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (min-width=900px){
+    aside{
+      display:none;
+    }
+    header{
+      display:flex;
+      flex-direction: column;
+    }
+    .displayCountry{
+      display: flex;
+      flex-direction: column;
+    }
+  }

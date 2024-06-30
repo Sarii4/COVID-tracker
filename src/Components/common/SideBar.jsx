@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 import { GrAnalytics, GrAppsRounded, GrLineChart} from "react-icons/gr";
 import { TiThMenuOutline } from "react-icons/ti";
 import { GoFileDirectory,GoComment } from "react-icons/go";
@@ -39,9 +40,9 @@ const Logo = styled.img`
 const SideBar = () => {
   return (
     <>
-      <a href=""><Logo src="../../../../images/coronavirus.png" width={80} /></a>
+      <Link to="/"><Logo src="../../../images/coronavirus.png" width={80} /></Link>
       <Icons>
-        <StyledIcon><GrAnalytics/></StyledIcon>
+        <Link to="/tracker1"><StyledIcon><GrAnalytics/></StyledIcon></Link>
         <StyledIcon><TiThMenuOutline/></StyledIcon>
         <StyledIcon><GrAppsRounded /></StyledIcon>
         <StyledIcon><GoFileDirectory /></StyledIcon>

@@ -1,15 +1,15 @@
-import Navbar from "./components/navbar/navbar"
-import SectionDownload1 from "./components/section-download-1/Section-Download-1"
-import SectionDownload3 from "./components/Section-Download-3/Section-Download-3";
-import SectionPhone from "./components/SectionPhone/SectionPhone";
-import FrequentlyAsked from "./components/Frequently-Asked/FrequentlyAsked";
-import MoreInformation from "./components/MoreInfomation/MoreInfomation";
+import Navbar from "./Components/navbar/navbar"
+import SectionDownload1 from "./Components/section-download-1/Section-Download-1"
+import SectionDownload3 from "./Components/Section-Download-3/Section-Download-3";
+import SectionPhone from "./Components/SectionPhone/SectionPhone";
+import FrequentlyAsked from "./Components/Frequently-Asked/FrequentlyAsked";
+import MoreInformation from "./Components/MoreInfomation/MoreInfomation";
 import Phone1 from './assets/images/phone-1.png';
 import Blog1 from './assets/images/blog-1.jpg';
 import Blog2 from './assets/images/blog-2.jpg';
 import Blog3 from './assets/images/blog-3.jpg';
 import { Section5, Section6, Section7, SectionCarousel, Titulos } from "./styled/styledSections";
-import Carousel from './components/Carousel/Carousel';
+import Carousel from './Components/Carousel/Carousel';
 import data from './utils/data.json';
 import GlobalStyle from "./styled/GlobalStyled";
 
