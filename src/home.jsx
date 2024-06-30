@@ -1,4 +1,3 @@
-
 import Navbar from "./Components/navbar/navbar"
 import SectionDownload1 from "./Components/section-download-1/Section-Download-1"
 import SectionDownload3 from "./Components/Section-Download-3/Section-Download-3";
@@ -12,6 +11,8 @@ import Blog3 from './assets/images/blog-3.jpg';
 import { Section5, Section6, Section7, SectionCarousel, Titulos } from "./styled/styledSections";
 import Carousel from './Components/Carousel/Carousel';
 import data from './utils/data.json';
+import GlobalStyle from "./styled/GlobalStyled";
+import Footer from "./Components/footer/footer"
 
 
 
@@ -24,17 +25,15 @@ const Home = () => {
         <>
             <Navbar />
             <>
+            <GlobalStyle/>
                 <>
                     <SectionDownload1/>
-                    
-
                     <Titulos>
                         <h2>App Feature</h2>
                         <h1>Basic Feature You Will Get When You Use</h1>
                     </Titulos>
                     <SectionCarousel>
-
-                        {componente3Data.map((item, index) => (
+                    {componente3Data.map((item, index) => (
                             <Carousel
                                 key={index}
                                 url={`../src/assets/images/${item.image}`}
@@ -42,7 +41,6 @@ const Home = () => {
                                 text={item.paragraph}
                             />
                         ))}
-
                     </SectionCarousel>
                     <Titulos>
                         <h2>Faqs</h2>
@@ -67,7 +65,6 @@ const Home = () => {
                     </Section5>
                 </>
             </>
-
             <Section6>
                 <SectionDownload3
                     titulo="Get the simple app for latest news"
@@ -91,10 +88,11 @@ const Home = () => {
                         parrafo="What can I do to protect myself and prevent the spread of disease?"
                     />
                 </Section7>
-
+            </>
+            <>
+            <Footer/>
             </>
         </>
-
     )
 }
 
