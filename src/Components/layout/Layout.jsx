@@ -7,7 +7,7 @@ import useApi from '../../services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from '../../config/urls';
 import './layout.css'
 
-const Layout = ({ children }) => {
+const Layout = ({children}) => {
 
     const dataTotal = useApi(API_WORLD_TOTAL);
     console.log(dataTotal);
@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
                 </article>
             </aside>
             <main>
-                <Tracker/>
+                {children}
             </main>
         </div>
         </>

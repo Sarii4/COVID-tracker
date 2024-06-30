@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Link, NavLink} from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { GrAnalytics, GrAppsRounded, GrLineChart} from "react-icons/gr";
 import { TiThMenuOutline } from "react-icons/ti";
 import { GoFileDirectory,GoComment } from "react-icons/go";
@@ -52,12 +52,12 @@ const SideBar = () => {
       <Link to="/"><Logo src="../../../images/coronavirus.png" width={80} /></Link>
       <Icons>
         <NavLink to="/tracker1"><StyledIcon><GrAnalytics/></StyledIcon></NavLink>
-        <NavLink to="/tracker1"><StyledIcon><TiThMenuOutline/></StyledIcon></NavLink>
-        <StyledIcon><GrAppsRounded /></StyledIcon>
-        <StyledIcon><GoFileDirectory /></StyledIcon>
-        <StyledIcon><TfiLayersAlt /></StyledIcon>
-        <StyledIcon><GrLineChart /></StyledIcon>
-        <StyledIcon><PiGlobe /></StyledIcon>
+        <NavLink to="/tracker2"><StyledIcon><TiThMenuOutline/></StyledIcon></NavLink>
+        <NavLink to="/tracker3"><StyledIcon><GrAppsRounded /></StyledIcon></NavLink>
+        <NavLink to="/tracker4"><StyledIcon><GoFileDirectory /></StyledIcon></NavLink>
+        <NavLink to="/tracker5"><StyledIcon><TfiLayersAlt /></StyledIcon></NavLink>
+        <NavLink to="/tracker6"><StyledIcon><GrLineChart /></StyledIcon></NavLink>
+        <NavLink to="/tracker7"><StyledIcon><PiGlobe /></StyledIcon></NavLink>
         <StyledIcon><GoComment /></StyledIcon>
       </Icons>
   </>

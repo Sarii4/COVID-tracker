@@ -6,7 +6,7 @@ import "./tracker.css"
 
 
 
-const Tracker1 = ({children}) => {
+const Tracker1 = () => {
     
   return (
     <>
