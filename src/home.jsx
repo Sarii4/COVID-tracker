@@ -12,6 +12,8 @@ import { Section5, Section6, Section7, SectionCarousel, Titulos } from "./styled
 import Carousel from './Components/Carousel/Carousel';
 import data from './utils/data.json';
 import GlobalStyle from "./styled/GlobalStyled";
+import Footer from "./Components/footer/footer"
+
 
 
 
@@ -86,6 +88,9 @@ const Home = () => {
                         parrafo="What can I do to protect myself and prevent the spread of disease?"
                     />
                 </Section7>
+            </>
+            <>
+            <Footer/>
             </>
         </>
     )
