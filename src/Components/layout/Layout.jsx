@@ -1,13 +1,13 @@
 import { Outlet as Tracker } from "react-router-dom";
-import DataBar from '../common/aside/DataBar'
-import TopTen from '../common/aside/TopTen'
-import SideBar from '../common/sidebar/SideBar'
+import DataBar from '../common/DataBar'
+import TopTen from '../common/TopTen'
+import SideBar from '../common/SideBar'
 //import getData from "./services/getData";
 import useApi from '../../services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from '../../config/urls';
 import './layout.css'
 
-const Layout = () => {
+const Layout = ({ children }) => {
 
     const dataTotal = useApi(API_WORLD_TOTAL);
     console.log(dataTotal);
@@ -20,10 +20,12 @@ const Layout = () => {
     console.log(topTencountries);
 
     return (
+
         <>
+        <div>
             <nav>
                 <SideBar/>
-            </nav> 
+            </nav>
             <aside>
                 <h1>COVID-19 Tracker</h1>
                 <section>
@@ -38,8 +40,10 @@ const Layout = () => {
                     <TopTen key={0} flag={el?.countryInfo?.flag} country={el?.country} value={el?.cases}/> )}; 
                 </article>
             </aside>
-
-            <main><Tracker/></main>
+            <main>
+                <Tracker/>
+            </main>
+        </div>
         </>
     )
 }

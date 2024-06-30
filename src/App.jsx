@@ -10,7 +10,9 @@ import CountryData from './Components/CountryData';
 import CountrySelect from './Components/CountrySelect';
 import DataFooter from './Components/DataFooter';
 
+
 function App()  {
+
 
   const dataTotal = useApi(API_WORLD_TOTAL);
   console.log(dataTotal);
@@ -20,7 +22,6 @@ function App()  {
   const sortedCountries = countries?.sort((a, b) => b.cases - a.cases);
   const topTencountries = sortedCountries?.slice(0, 10);
   console.log(topTencountries);
-
 
   return (
     <>
@@ -43,6 +44,7 @@ function App()  {
           <TopTen key={0} flag={el?.countryInfo?.flag} country={el?.country} value={el?.cases}/> )}; 
         </article>
       </aside>
+
 
       <main>
         <header>
@@ -77,6 +79,7 @@ function App()  {
   )
 }
 export default App
+
 
 
 

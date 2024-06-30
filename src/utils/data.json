@@ -1,0 +1,137 @@
+{
+    "home": [
+        {
+            "component": 1,
+                "elements": [
+                {
+                    "title1": "Download the covid app for get latest update",
+                    "paragraph1": "Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold.The corona virus COVID-19 is affecting 210 countries & territories around the world and 2 international conveyances.",
+                    "boton1": "HOW TO PROTECT"
+                },
+                {
+                    "title2": "Stay Home, And Prayer For Victim",
+                    "paragraph2": "Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold.Shortness of breath can be a third -- and very serious -- manifestation of Covid-19, and it can occur on its own, without a cough.",
+                    "boton2": "DOWNLOAD NOW"
+                },
+                {
+                    "title3": "Get the simple app for latest news",
+                    "paragraph3": "Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold.",
+                    "boton3": "DOWNLOAD NOW"
+                }
+            ]
+        },
+        {
+            "component": 2,
+                "elements": [
+                {
+                    "image1": "../assets/images/phones.png"
+                },
+                {
+                    "image2": "../assets/images/phone-1.png"
+                },
+                {
+                    "image3": "../assets/images/phone-1.png"
+                }
+            ]
+        }, 
+        {
+            "component": 3,
+                "elements": [
+                {
+                    "title": "Difficulty Breathing",
+                    "paragraph": "Shortness of breath can be a third -- and very serious -- manifestation of Covid-19, and it can occur on its own, without a cough. ",
+                    "image": "pink.png"
+                },
+                {
+                    "title": "Cough",
+                    "paragraph": "Coughing is another key symptom, but it's not just any cough, said Schaffner. It shoul be a dry cough that you feel in your chest.",
+                    "image": "yellow.png"
+                },
+                {
+                    "title": "Fever",
+                    "paragraph": "Fever is a key symptom,experts say. Don't fixate on number,but know it's really not a fever until your temperature recahes at least 100",
+                    "image": "blue.png"
+                },
+                {
+                    "title": "Difficulty Breathing",
+                    "paragraph": "Shortness of breath can be a third and very serious manifestation of Covid-19, and it can occur on its own without a cough",
+                    "image": "pink.png"
+                },
+                {
+                    "title": "Cough",
+                    "paragraph": "Coughing is another key symptom, but it's not just any cough, said Schaffner. It shoul be a dry cough that you feel in your chest.",
+                    "image": "yellow.png"
+                },
+                {
+                    "title": "Fever",
+                    "paragraph": "Coughing is another key symptom, but it's not just any cough, said Schaffner. It shoul be a dry cough that you feel in your chest.",
+                    "image": "blue.png"
+                }
+            ]
+        },
+        {
+            "component": 4,
+                "elements": [
+                {
+                    "image1": "5643",
+                    "title1": "dOWNLOAD",
+                    "paragraph1": "Paragraph 4.1"
+                },
+                {
+                    "title2": "403",
+                    "paragraph2": "STARTUPS",
+                    "image2": "URL-to-image-4.2"
+                },
+                {
+                    "title3": "120+",
+                    "paragraph3": "MEMBER",
+                    "image3": "URL-to-image-4.3"
+                },
+                {
+                    "title4": "22M",
+                    "paragraph4": "REVENUE",
+                    "image4": "URL-to-image-4.4"
+                }
+            ]
+        },
+        {
+            "component": 5,
+                "elements": [
+                {
+                    "title1": "01 . Unique and bold website design",
+                    "paragraph1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                
+                },
+                {
+                    "title2": "02 . We're are ready to start now",
+                    "paragraph2": ""
+                },
+                {
+                    "title3": "03. We deliver the highest quality design",
+                    "paragraph3": ""
+                },
+                {
+                    "title4": "04. We deliver the highest quality design",
+                    "paragraph4": ""
+                }
+            ]
+        },
+        {
+            "component": 6,
+                "elements": [
+                {
+                    "title": "Can COVID-19 be caught from a person who has no symptoms?",
+                    "image": "../assets/images/blog-1.jpg"
+                },
+                {
+                    "title": "What you need to know About Novel Corona Virus Covid 19",
+                    "image": "../assets/images/blog-2.jpg"
+                },
+                {
+                    "title": "What can I do to protect myself and prevent the spread of disease?",
+                    "image": "../assets/images/blog-3.jpg"
+                }
+            ]
+        }
+    ]
+}
