@@ -1,7 +1,7 @@
 import { Outlet as Tracker } from "react-router-dom";
-import DataBar from '../common/aside/DataBar'
-import TopTen from '../common/aside/TopTen'
-import SideBar from '../common/sidebar/SideBar'
+import DataBar from '../common/DataBar'
+import TopTen from '../common/TopTen'
+import SideBar from '../common/SideBar'
 //import getData from "./services/getData";
 import useApi from '../../services/useApi';
 import { API_WORLD_TOTAL, API_COUNTRY_TOTAL } from '../../config/urls';
@@ -22,6 +22,7 @@ const Layout = ({ children }) => {
     return (
 
         <>
+        <div>
             <nav>
                 <SideBar/>
             </nav>
@@ -39,11 +40,10 @@ const Layout = ({ children }) => {
                     <TopTen key={0} flag={el?.countryInfo?.flag} country={el?.country} value={el?.cases}/> )}; 
                 </article>
             </aside>
-
             <main>
-                    <Tracker/>
+                <Tracker/>
             </main>
-
+        </div>
         </>
     )
 }

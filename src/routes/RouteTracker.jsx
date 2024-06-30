@@ -3,14 +3,14 @@ import { Route, Routes } from 'react-router-dom'
 import Layout from '../Components/layout/Layout'
 import Tracker1 from '../pages/Tracker1'
 
-const RouteTracker = () => {
+const RouteTracker = ({children}) => {
     return (
         <>
             <Layout>
                 <Routes>
-                    <Route path="tracker" element={<Tracker1 />} exact />
                     <Route path="tracker1" element={<Tracker1 />} exact />
                     <Route path="tracker2" element={<Tracker1 />} exact />
+                    <Route path="tracker3" element={<Tracker1 />} exact />
                 </Routes>
             </Layout>
         </>
