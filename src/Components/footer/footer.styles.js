@@ -3,14 +3,14 @@ import styled from "styled-components"
 
 
 export const FooterWraper = styled.div`
-padding: 70px;
+padding: 80px;
 background-color: #1b2a4e;
 line-height: 30px;
-font-weight: 400;
-font-size: 14px;
+font-weight: 500;
+font-size: 15px;
 margin-right: 10%;
 color: #8686b5;
-width:100%;
+width:112%;
 `;
 
 
