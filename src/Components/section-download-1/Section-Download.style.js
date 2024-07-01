@@ -3,6 +3,12 @@ import styled from 'styled-components';
 
 
 
+export const SectionAbsoluteContainer = styled.section`
+display:flex;
+justify-content:center;
+margin:0 auto;
+
+`;
 
 export const SectionTotalContainer = styled.div` 
 background-color: #254179 ;
@@ -10,11 +16,13 @@ display: flex;
 flex-direction: row;
 width: 1024px;
 max-width: 1200px;
-height: 1366px;
+height: 850px;
 justify-content: space-between;
 align-items: flex-start;
 padding:30px;
-background: linear-gradient(to bottom, #4e90b6, #235e8d, #203e75, #20346d, #181251); 
+background: linear-gradient(to bottom, #4e90b6, #235e8d, #203e75, #20346d, #181251);
+margin-top:5%; 
+
 
 `;
 
@@ -70,6 +78,7 @@ export const StyledButton = styled.button`
   font-weight: bold;
   padding: 15px 50px; 
   margin: 40px 0 0 40px;
+  height:60px ;
   &:hover {
     border-color: rgb(18, 17, 88); 
     
@@ -110,9 +119,9 @@ justify-content: center;
   align-items: center;
   background-color: white;
   padding: 10px;
-  margin-top: 20px;
+  //margin-top: 50%;
   border-radius: 5px;
-  margin: 10px 0px 0px 45px;
+  margin: 10px 0px -100px 45px;
 
 
 `;

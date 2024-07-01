@@ -1,4 +1,4 @@
-import { SectionTotalContainer, SectionContainer, Title, Description, StyledButton, ImageContainer, StyledImage,  SponsorContainer, StyledSponsor0, StyledSponsor1, StyledSponsor2, StyledSponsor3, StyledSponsor5, StyledSponsor4, ContainerButtons, StyledShare,StyledCart, StyledSupport } from "./Section-Download.style";
+import { SectionTotalContainer, SectionContainer, Title, Description, StyledButton, ImageContainer, StyledImage,  SponsorContainer, StyledSponsor0, StyledSponsor1, StyledSponsor2, StyledSponsor3, StyledSponsor5, StyledSponsor4, ContainerButtons, StyledShare,StyledCart, StyledSupport , SectionAbsoluteContainer } from "./Section-Download.style";
 
 import Phones from "../../assets/images/phones.png";
 import SponsorImage0 from "../../assets/images/b-2.png";
@@ -14,8 +14,8 @@ import ImageCart from "../../assets/images/botones_carrito_covid_tracker__3_-rem
 
 const SectionDownload1 = () => {
   return (
+    <SectionAbsoluteContainer>
     <SectionTotalContainer>
-      
       <ContainerButtons>
         <StyledShare src={Share} alt="Share" />
         <StyledSupport src={ImageSupport} alt="Support" />
@@ -45,12 +45,8 @@ const SectionDownload1 = () => {
         <StyledSponsor5 src = {SponsorImage5} alt = "Sponsor5" />
         <StyledSponsor4 src = {SponsorImage4} alt = "Sponsor4" />
       </SponsorContainer>
-
-
-
     </SectionTotalContainer>
-
-    
+    </SectionAbsoluteContainer>
   );
 };
 
