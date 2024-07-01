@@ -7,8 +7,8 @@ body {
   margin: 0;
   display: flex;
   justify-content: start;
-  height: auto;
-  width: auto;
+  /* height: auto;
+  width: auto; */
   background-color: #f7f8fc;
 }
 

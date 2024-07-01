@@ -18,6 +18,8 @@ const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     min-height: 100vh;
     align-items:center;
+    width:100%;
+
   }
 
   #root {
@@ -27,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     background-color: inherit;
+    align-items:center;
   }
 
   h1 {

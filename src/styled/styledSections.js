@@ -25,10 +25,17 @@ export const Titulos = styled.div`
 `
 export const SectionCarousel = styled.div`
     width:100%;
-    height:250px;
+    height:auto;
     display: flex;
     justify-content: center;
     margin-bottom:30px;
+    flex-wrap: wrap;
+    @media (max-width: 600px) {
+        width:60%;
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        }
 `
 
 

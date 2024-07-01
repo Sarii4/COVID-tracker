@@ -1,4 +1,4 @@
-import { Card, ContenedorCarousel } from './Styled-Carousel';
+import { Card } from './Styled-Carousel';
 
 
 const Carousel = ({url,title,text}) => {
