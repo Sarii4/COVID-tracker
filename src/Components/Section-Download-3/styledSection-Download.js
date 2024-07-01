@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 
 export const ContainerDownload = styled.div`
-    width: 450px;
-    padding: 20px;
+    width: 500px;
+    padding: 25px;
     font-family: sans-serif;
     & h1{
         font-size: 40px;
-        font-weight: 500;
+        font-weight: 800;
         line-height: 40px;
         color: #fff;
         line-height: 50px;
