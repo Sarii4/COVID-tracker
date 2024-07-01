@@ -4,8 +4,8 @@ import styled from "styled-components";
 
 export const Card = styled.div`
     background-color: #fff;
-    height: 250px;
-    width: 300px;
+    height: auto;
+    width: 255px;
     margin: 10px;
     padding: 15px;
     border-radius: 5px;
@@ -25,10 +25,14 @@ export const Card = styled.div`
         font-size: 90%;
     }
     & img{
-        height: 55px;
-    }
+        width: 55px;
+    
     @media (max-width: 600px) {
-        display:flex
+        width:55px;
+}}
+    @media (max-width: 600px) {
+        width:80%;
+        display:flex;
         flex-direction:column;
         }
 `

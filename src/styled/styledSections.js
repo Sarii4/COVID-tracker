@@ -8,7 +8,6 @@ export const Titulos = styled.div`
     text-align: center;
     justify-content: center;
     margin-bottom: 30px;
-    padding-left: 40px;
     & h2{
         color: white;
         font-size: 20px;
@@ -27,11 +26,12 @@ export const SectionCarousel = styled.div`
     width:100%;
     height:auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom:30px;
-    flex-wrap: wrap;
+    align-items:center;
     @media (max-width: 600px) {
-        width:60%;
+        flex-wrap: wrap;
         display:flex;
         align-items:center;
         flex-direction:column;
