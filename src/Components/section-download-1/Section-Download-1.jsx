@@ -14,7 +14,7 @@ import ImageCart from "../../assets/images/botones_carrito_covid_tracker__3_-rem
 
 const SectionDownload1 = () => {
   return (
-    <SectionAbsoluteContainer>
+    
     <SectionTotalContainer>
       <ContainerButtons>
         <StyledShare src={Share} alt="Share" />
@@ -46,7 +46,7 @@ const SectionDownload1 = () => {
         <StyledSponsor4 src = {SponsorImage4} alt = "Sponsor4" />
       </SponsorContainer>
     </SectionTotalContainer>
-    </SectionAbsoluteContainer>
+   
   );
 };
 
