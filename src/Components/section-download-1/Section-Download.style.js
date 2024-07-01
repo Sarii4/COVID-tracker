@@ -66,7 +66,7 @@ export const SectionContainer = styled.div`
 export const Title = styled.h1`
   font-size: 28px; 
   font-family: Poppins, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.1;
   text-align: left;
