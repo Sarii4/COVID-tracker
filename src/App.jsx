@@ -1,13 +1,16 @@
 
+
+
+
+  
+
 import DataBar from './Components/common/aside/DataBar'
 import TopTen from './Components/common/aside/TopTen'
-//import SideBar from './Components/common/sidebar/SideBar'
+import SideBar from './Components/common/sidebar/SideBar'
 
 import './App.css'
 
-function App() {
-  return (
-    <>
+function App() {   
       
   return (
     <>
@@ -34,16 +37,9 @@ function App() {
         </article>
 
       </aside>
+
     </>
   )
 }
 
 export default App;
-
-
-
-
-
-
-
-

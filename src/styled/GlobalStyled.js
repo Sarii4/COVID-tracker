@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
 
+
   body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.75;
@@ -15,14 +16,16 @@ const GlobalStyle = createGlobalStyle`
     background-color: #171133;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
   }
 
   #root {
-    width: 100%;
+    flex: 1;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: inherit;
   }
 
   h1 {
