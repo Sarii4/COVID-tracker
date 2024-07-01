@@ -37,24 +37,25 @@ Creating a data visualization user interface: Level 1 - Imitate.
 ##  Technologies 
 ***
 A list of the technologies used in the project:
+
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5): Version 5.0
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS): Version 3.0
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): Version ES14
-* [Styled Components](https://styled-components.com/): Styling our way with speed, strong typing, and flexibility Version 1.77.2.
-* [React](https://react.dev/): Version 1.77.2.
-
-  
-##  Tools 
-
-***
-A list of the tools used in the project:
-
+* [NODE.js](https://nodejs.org/en): Version 22.3.0.
 * [Vite](https://vitejs.dev/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
-* [Git](https://git-scm.com/): Version control system
-* [Github](https://github.com/):  Hosting for software development and version control using Git.
+* [Git](https://git-scm.com/): Version control system . Used together with Github, a hosting platform for software development and version control.
 * [Netlify](https://www.netlify.com/): A platform for deploying web projects.
-* [Editor.md](https://pandao.github.io/editor.md/en.html) 
+* [Editor.md](https://pandao.github.io/editor.md/en.html)
 
+##  Tools 
+***
+A list of the tools used in the project:  
+
+* [React](https://react.dev/): Version ^18.2.0.
+* [Styled Components](https://styled-components.com/): Styling our way with speed, strong typing, and flexibility Version 1.77.2.
+* [React DOM ^18.2.0 / React Router DOM ^6.24](https://reactrouter.com/en/main)
+* React icons ^5.2.1
+* Prop.types ^15.8.1
 
 ##  Installation 
 ***
@@ -71,7 +72,7 @@ If you wish to contribute to this project, please follow these steps:
 
 ##  Farewell 
 ***
-Thank you for taking the time to check out our project! We hope it provides valuable insights and contributes to the better understanding and management of pandemics.
+Thanks for taking the time to check out our project! We hope it provides valuable insights and contributes to a better understanding and management of pandemics.
 
 ## 👩🏽‍💻👩🏻‍💻👩🏽‍💻 is our team 👩🏽‍💻👩🏻‍💻👩🏽‍💻:
 
@@ -98,9 +99,9 @@ Thank you for taking the time to check out our project! We hope it provides valu
    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Shaila**</a></p>
 
 
-We are a team of 6 front-end developers working collaboratively using SCRUM methodology to deliver this project within 2 weeks.
+We are a team of 6 front-end developer trainees collaborating at this project. We've used SCRUM methodology to deliver results within 2 weeks.
 
-## Expressions of Gratitude 🎁
+## Expressions of Gratitude 🎁 
 
 To show our appreciation for the hard work and dedication, we hope to be invited to enjoy a sushi platter together! 
 Thank you for your commitment and teamwork!
