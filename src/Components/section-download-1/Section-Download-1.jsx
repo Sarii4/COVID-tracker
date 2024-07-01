@@ -1,4 +1,4 @@
-import { SectionTotalContainer, SectionContainer, Title, Description, StyledButton, ImageContainer, StyledImage,  SponsorContainer, StyledSponsor0, StyledSponsor1, StyledSponsor2, StyledSponsor3, StyledSponsor5, StyledSponsor4, ContainerButtons, StyledShare,StyledCart, StyledSupport , SectionAbsoluteContainer } from "./Section-Download.style";
+import { SectionTotalContainer, SectionContainer, Title, Description, StyledButton, ImageContainer, StyledImage,  SponsorContainer, StyledSponsor0, StyledSponsor1, StyledSponsor2, StyledSponsor3, StyledSponsor5, StyledSponsor4, ContainerButtons, StyledShare,StyledCart, StyledSupport } from "./Section-Download.style";
 
 import Phones from "../../assets/images/phones.png";
 import SponsorImage0 from "../../assets/images/b-2.png";
