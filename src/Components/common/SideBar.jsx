@@ -9,7 +9,7 @@ import { PiGlobe } from "react-icons/pi";
 const Icons = styled.div`
   display: flex;
   flex-direction: column;
-  width: 6.25rem;
+  width: 5rem;
   height: auto;
   padding: 0.313rem;
   margin: auto;

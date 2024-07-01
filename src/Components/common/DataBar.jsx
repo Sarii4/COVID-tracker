@@ -4,36 +4,35 @@ import styled from "styled-components";
 const WorldData = styled.div`
 display: flex;
 justify-content: space-between;
+color:  #1A1662;
 padding: 20px;
 width: 320px;
 height: 50px;
 margin-bottom: 10px;
 border-radius: 5px;
-color: #1A1662;
 background-color: ${(props => props.fondo)};
 
 &:hover {
-  scale: 1.2;
-  border: 3px solid ${(props => props.hasColor? "none" : "red")};
+  scale: 1.1;
+  border: 3px solid;
+  border-color:${(props => props.color)};
+}
+& h2 {
+color:${(props => props.color)};
 }
 `;
-// css={"background-color: ${props.fondo}"}> */}
-//hasColor={hasColor} onClick={() => setHasColor(!hasColor)}
 
-const DataBar = ({ title, value }) => {
-  const [hasColor, setHasColor] = useState(false);
-  const [fondo, setFondo] = useState(false);
-  
+const DataBar = ({ title, value, color, fondo }) => {
+
     return (
-    <WorldData 
-      fondo={fondo} onClick ={() => setFondo(!fondo)}
-      hasColor={hasColor} onChange={() => setHasColor(!hasColor)}
-    > 
+    <WorldData color={color} fondo={fondo}>
       <h3>{title}</h3>
-      <h3>{value}</h3>
+      <h2>{value}</h2>
     </WorldData>
   )
 }
 
 export default DataBar
 
+      //fondo={fondo} onClick ={() => setFondo(!fondo)}
+      //hasColor={hasColor} onchange={() => setHasColor(!hasColor)}

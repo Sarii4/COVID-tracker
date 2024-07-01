@@ -26,25 +26,23 @@ const FooterText = styled.div`
 & h2 {
   margin: 0;
   padding: 0;
+  color: ${(props => props.color)};
 }
-
 & h3 {
   margin: 0;
   padding: 0;
 }
 `;
 
-
-
-const DataFooter = ({title, value}) => {
+const DataFooter = ({title, value, virus, color}) => {
 
   return (
     <FooterInfo>
-        <img src="../../images/icons/covid-blue.svg" alt="covid" width={50}/>
-          <FooterText>
+      <img src={virus} width={50} />
+      <FooterText color={color}>
         <h3>{title}</h3>
         <h2>{value}</h2>
-          </FooterText>
+      </FooterText>
     </FooterInfo>
   )
 }

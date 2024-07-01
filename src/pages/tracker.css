@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    font-family: "Poppins";
   }
   
   .displayCountry {
@@ -32,4 +33,15 @@ header {
       display: flex;
       flex-direction: column;
     }
+  }
+
+  select {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #121158;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size:x-large;
   }
