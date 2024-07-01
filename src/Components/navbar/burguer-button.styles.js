@@ -9,7 +9,7 @@ export const BurguerContainer = styled.section`
     width: 30%;
     height: 30%;
     display: none;
-    @media (max-width:768px) {
+    @media (max-width:600px) {
     display: flex;
     justify-content:flex-end;
     margin-right:5%;
@@ -20,5 +20,7 @@ export const BurguerContainer = styled.section`
     
 `;
 export const BurguerImage = styled.img`
+ @media (max-width:600px) {
 width:5%;
+} 
 `;

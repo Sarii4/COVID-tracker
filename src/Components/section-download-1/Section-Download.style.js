@@ -17,6 +17,7 @@ height: 100vh;
 flex-direction:row;
 
 
+
 }
   @media (min-width: 600px) {
     flex-direction: row;

@@ -12,7 +12,7 @@ export const Card = styled.div`
     & h1{
         margin:0;
         color: #333;
-        font-size:24px
+        font-size:23px
     }
     & p{
         color: #333;
