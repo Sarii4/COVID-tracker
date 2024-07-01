@@ -36,7 +36,7 @@ export const SectionCarousel = styled.div`
 export const Section5 = styled.div`
     display: flex;
     flex-wrap: wrap;
-    width: 110%;
+    width: 100%;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 50px;
@@ -55,8 +55,9 @@ export const Section6 = styled.div`
     height: 450px;
     margin-top: 250px;
     background: linear-gradient(to right, #1e0c9d, #06cdec);
-    margin-left: 20%;
-    padding: 20px;
+    width: 70%;
+    margin-left: 14%;
+    padding: 30px;
     border-radius: 10px;
     @media (max-width: 600px){
     margin-top: 0;
@@ -112,6 +113,5 @@ export const Section7 = styled.div`
     align-items: center;
     margin-top: 60px;
     gap: 30px;
-    margin-bottom: 60px;
-    
+    margin-bottom: 80px;
 `
