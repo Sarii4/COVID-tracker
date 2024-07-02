@@ -1,4 +1,3 @@
-// src/components/TextButton/TextButton.jsx
 import React from 'react';
 import styled from 'styled-components';
 
@@ -26,4 +25,3 @@ const TextButton = ({ children }) => {
 };
 
 export default TextButton;
-
