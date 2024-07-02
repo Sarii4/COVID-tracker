@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const CountryInfo = styled.div`
-    background-color: #ffffff;
+    background-color: lightgreen;
     //background-image: url("../../images/covid-defult.svg") ;
     
     //background-size: 200px 200px;
@@ -20,19 +20,33 @@ const CountryInfo = styled.div`
       translate: 0px -10px;
     }
     & h1{
+      margin: 0;
+      padding: 0;
       color: ${(props => props.color)};
     }
+    & h2{
+      margin:0;
+      padding: 0;
+    }
+
 `;
 
 const Virus = styled.img`
-    position: relative;
-    opacity: 80%;
-    size: 150px 150px;
-    translate: 145px -40px;
+    position: absolute;
+    opacity: 40%;
+    width: 150px 
+    height: 150px;
+    margin:0;
+    padding: 0;
+    margin-left: 200px;
+    margin-botton:110px;
+    display: flex;
+    justify-content: end;
     overflow: hidden;
-    z-index: 2;
-
-    & :hover {
+  
+    
+    
+    &:hover {
     animation: logo-spin infinite 10s linear;
     @keyframes logo-spin {
     from { transform: rotate(0deg);}
@@ -45,7 +59,7 @@ const CountryData = ({title, value, virus, color}) => {
 
   return (
     <CountryInfo color={color}>
-        <Virus src={virus}></Virus>
+        <Virus src={virus} width={100}></Virus>
         <h2>{title}</h2>
         <h1>{value}</h1>
     </CountryInfo>
