@@ -54,8 +54,8 @@ A list of the tools used in the project:
 * [React](https://react.dev/): Version ^18.2.0.
 * [Styled Components](https://styled-components.com/): Styling our way with speed, strong typing, and flexibility Version 1.77.2.
 * [React DOM ^18.2.0 / React Router DOM ^6.24](https://reactrouter.com/en/main)
-* React icons ^5.2.1
-* Prop.types ^15.8.1
+* [React icons](https://react-icons.github.io/react-icons/): ^5.2.1
+* [Prop.types](https://www.npmjs.com/package/prop-types): ^15.8.1
 
 ##  Installation 
 ***
