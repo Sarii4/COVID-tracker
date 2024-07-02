@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link, NavLink } from "react-router-dom"
 import { GrAnalytics, GrAppsRounded, GrLineChart} from "react-icons/gr";
 import { TiThMenuOutline } from "react-icons/ti";
 import { GoFileDirectory,GoComment } from "react-icons/go";
@@ -8,7 +9,7 @@ import { PiGlobe } from "react-icons/pi";
 const Icons = styled.div`
   display: flex;
   flex-direction: column;
-  width: 6.25rem;
+  width: 5rem;
   height: auto;
   padding: 0.313rem;
   margin: auto;
@@ -25,6 +26,15 @@ const Icons = styled.div`
     color: #3639AE;
     margin: 0.625rem 0.313rem;
     cursor: pointer;
+
+    &:hover{
+      color: #FFFFFF;
+      background-color: #3639AE;
+    }
+    &.active {
+      color: #FFFFFF;
+      background-color: #3639AE;
+    }
   `;
 
 const Logo = styled.img` 
@@ -39,15 +49,15 @@ const Logo = styled.img`
 const SideBar = () => {
   return (
     <>
-      <a href=""><Logo src="../../../../images/coronavirus.png" width={80} /></a>
+      <Link to="/"><Logo src="../../../images/coronavirus.png" width={80} /></Link>
       <Icons>
-        <StyledIcon><GrAnalytics/></StyledIcon>
-        <StyledIcon><TiThMenuOutline/></StyledIcon>
-        <StyledIcon><GrAppsRounded /></StyledIcon>
-        <StyledIcon><GoFileDirectory /></StyledIcon>
-        <StyledIcon><TfiLayersAlt /></StyledIcon>
-        <StyledIcon><GrLineChart /></StyledIcon>
-        <StyledIcon><PiGlobe /></StyledIcon>
+        <NavLink to="/tracker1"><StyledIcon><GrAnalytics/></StyledIcon></NavLink>
+        <NavLink to="/tracker2"><StyledIcon><TiThMenuOutline/></StyledIcon></NavLink>
+        <NavLink to="/tracker3"><StyledIcon><GrAppsRounded /></StyledIcon></NavLink>
+        <NavLink to="/tracker4"><StyledIcon><GoFileDirectory /></StyledIcon></NavLink>
+        <NavLink to="/tracker5"><StyledIcon><TfiLayersAlt /></StyledIcon></NavLink>
+        <NavLink to="/tracker6"><StyledIcon><GrLineChart /></StyledIcon></NavLink>
+        <NavLink to="/tracker7"><StyledIcon><PiGlobe /></StyledIcon></NavLink>
         <StyledIcon><GoComment /></StyledIcon>
       </Icons>
   </>

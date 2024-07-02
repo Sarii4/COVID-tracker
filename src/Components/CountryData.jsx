@@ -2,37 +2,66 @@ import React from 'react'
 import styled from 'styled-components'
 
 const CountryInfo = styled.div`
-    background-color: #ffffff;
-    background-image: url("../../images/icons/covid-blue.svg") ;
-    opacity:20%;
-    background-size: 200px 200px;
-    background-repeat: no-repeat;
-    background-position: 145px -40px;
+    background-color: lightgreen;
+    //background-image: url("../../images/covid-defult.svg") ;
+    
+    //background-size: 200px 200px;
+    //background-repeat: no-repeat;
+    //background-position: 145px -40px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 25px;
     width: 265px;
     height: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
     color: #1A1662;
+    &:hover{
+      translate: 0px -10px;
+    }
+    & h1{
+      margin: 0;
+      padding: 0;
+      color: ${(props => props.color)};
+    }
+    & h2{
+      margin:0;
+      padding: 0;
+    }
 
-    //&:hover{
-    //animation: logo-spin infinite 10s linear;
+`;
+
+const Virus = styled.img`
+    position: absolute;
+    opacity: 40%;
+    width: 150px 
+    height: 150px;
+    margin:0;
+    padding: 0;
+    margin-left: 200px;
+    margin-botton:110px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+  
+    
+    
+    &:hover {
+    animation: logo-spin infinite 10s linear;
     @keyframes logo-spin {
     from { transform: rotate(0deg);}
     to { transform: rotate(360deg); }
+      }
     }
-//}
-`;
+    `;
 
-const CountryData = ({title, value}) => {
-
+const CountryData = ({title, value, virus, color}) => {
 
   return (
-    <CountryInfo>
+    <CountryInfo color={color}>
+        <Virus src={virus} width={100}></Virus>
         <h2>{title}</h2>
-        <h2>{value}</h2>
+        <h1>{value}</h1>
     </CountryInfo>
   )
 }
