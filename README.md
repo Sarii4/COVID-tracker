@@ -45,7 +45,7 @@ A list of the technologies used in the project:
 * [Vite](https://vitejs.dev/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
 * [Git](https://git-scm.com/): Version control system . Used together with Github, a hosting platform for software development and version control.
 * [Netlify](https://www.netlify.com/): A platform for deploying web projects.
-* [Editor.md](https://pandao.github.io/editor.md/en.html)
+* [Editor.md](https://pandao.github.io/editor.md/en.html): A simple online markdown editor.
 
 ##  Tools 
 ***
