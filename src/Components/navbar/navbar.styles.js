@@ -4,17 +4,18 @@ import styled from "styled-components";
 
 export const NavbarContainer = styled.nav`
 display: flex;
+flex-direction: row;
 justify-content:space-between;
 align-items: center;
 background-color: white;
 width:100%;
-height:11%;
-position:absolute;
+height:10%;
 z-index: 999;
 position: fixed;
 left: 0;
 right: 0;
 top: 0;
+margin: 0 auto;
 `;
 
 export const LogoContainer = styled.section`
@@ -35,17 +36,18 @@ margin-right:9%;
 gap:15px;
 
 
-@media(max-width: 768px){
+@media(max-width:600px){
 width: 100%;
-height: 60vh;
+height: 65vh;
 position: absolute;
-top:60px;
+top:0%;
 left: 0;
 flex-direction: column;
-align-items:center;
+align-items:space-between
 transition:0.5s all ease-in;
 background-color:#3939AE; 
-margin:0;
+margin:0 auto;
+gap:5%;
     }
 `;
 
@@ -54,7 +56,7 @@ display:flex;
 justify-content:center;
 margin: 0 10px;
 
-@media(max-width: 768px){
+@media(max-width:600px){
 width: 100%;
 height: 7%;
 margin:0;
@@ -66,7 +68,7 @@ color: #515184;
 text-decoration: none;
 font-size: 15px;
 
-@media(max-width: 768px){
+@media(max-width: 600px){
 color:white;
 
 }

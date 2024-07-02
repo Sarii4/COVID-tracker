@@ -8,7 +8,6 @@ export const Titulos = styled.div`
     text-align: center;
     justify-content: center;
     margin-bottom: 30px;
-    padding-left: 40px;
     & h2{
         color: white;
         font-size: 20px;
@@ -24,10 +23,19 @@ export const Titulos = styled.div`
     
 `
 export const SectionCarousel = styled.div`
-    width:1440px;
+    width:100%;
+    height:auto;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:30px;
+    align-items:center;
+    @media (max-width: 600px) {
+        flex-wrap: wrap;
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        }
 `
 
 
@@ -35,17 +43,13 @@ export const SectionCarousel = styled.div`
 export const Section5 = styled.div`
     display: flex;
     flex-wrap: wrap;
-    width: 110%;
+    width: 80%;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 50px;
-    padding-left: 320px;
+    margin-left: 70px;
     flex-direction: column;
-    @media (max-width: 600px) {
-        width: 100%;
-        padding-left: 0;
-    }
-`;
+`
 
 export const Section6 = styled.div`
     display: flex;
@@ -53,9 +57,11 @@ export const Section6 = styled.div`
     justify-content: center;
     height: 450px;
     margin-top: 250px;
+    margin-bottom: 10%;
     background: linear-gradient(to right, #1e0c9d, #06cdec);
-    margin-left: 20%;
-    padding: 20px;
+    width: 70%;
+    margin-left: 10%;
+    padding: 30px;
     border-radius: 10px;
     @media (max-width: 600px){
     margin-top: 0;
@@ -111,6 +117,5 @@ export const Section7 = styled.div`
     align-items: center;
     margin-top: 60px;
     gap: 30px;
-    margin-bottom: 60px;
-    
+    margin-bottom: 80px;
 `

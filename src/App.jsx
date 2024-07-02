@@ -27,8 +27,8 @@ function App()  {
     <>
     <div>
       <nav>
-        <SideBar/>
-      </nav> 
+        <SideBar />
+      </nav>
 
       <aside>
         <h1>COVID-19 Tracker</h1>
