@@ -1,8 +1,12 @@
 import { NavbarContainer, LogoContainer, NavLists, NavItem, NavList, Button } from "./navbar.styles"
 import BurguerButton from "./burguer-button"
 import logo from "../../assets/images/logo.png"
+import { useNavigate } from "react-router-dom";
+
 
 function Navbar() {
+    const navigate = useNavigate()
+
     return (
         <NavbarContainer>
             <LogoContainer >
@@ -27,7 +31,7 @@ function Navbar() {
                 <NavItem>
                     <NavList alt="Help">Help</NavList >
                 </NavItem>
-                <Button alt="Tracker">Tracker</Button>
+                <Button alt="Tracker" onClick={() => navigate("/tracker")}>Tracker</Button>
             </NavLists>
             <BurguerButton />
 
