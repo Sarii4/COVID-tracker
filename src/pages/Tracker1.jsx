@@ -15,17 +15,33 @@ const Tracker1 = () => {
   const sortedCountries = countries?.sort((a, b) => a?.country.toLowerCase().localeCompare(b?.country.toLowerCase()));
   const topTencountries = sortedCountries?.slice(0, 10)
   console.log(topTencountries);
-  //const [country, setCountry] = useState();
-  //const handlerSelectCountry = function(e){     onClick={handlerSelectCountry} 
- // const option= e.target.value;
+
+  let [country, setCountry] = useState();
+  let [cases, setCases] =useState();
+  let [deaths, setDeaths] = useState();
+  let [recovered, setRecovered] = useState();
+  let [active, setActive] =useState();
+  let [todayCases, setTodayCases] = useState();
+  let [todayDeaths, setTodayDeaths] =useState();
+
+
+  const handlerSelectCountry = function(e){   
+      setCountry= (e.target.value);
+      setCases= (e.target.value);
+      setDeaths= (e.target.value);
+      setRecovered=(e.target.value);
+      setActive= (e.target.value);    
+      setTodayCases= (e.target.value);
+      setTodayDeaths= (e.target.value);
+  }
 
   return (
     <>
         <header>
-          <select name="countries" >
+          <select name={country}    onClick={handlerSelectCountry}  >
               {sortedCountries?.map((el) => ( 
               <option key={el?.id} value= {el?.id} > {el?.country} </option> ))};
-           
+          
           </select>
           <h2>Updated: February 31, 2022</h2>
         </header>
@@ -33,19 +49,20 @@ const Tracker1 = () => {
         <hr/>
         <div className='displayCountry'>
           <div className='dataCountry'>
-           {/* //{sortedCountries?.map((el) =>  */}
+
             <CountryData 
-            title="Total Cases" key="{el?.country}" value="{el?.cases}" color="#3639ac" virus="../../images/covid-defult.svg" /> 
+            title="Total Cases" key={country} value={cases} color="#3639ac" virus="../../images/covid-defult.svg" /> 
             <CountryData 
-            title="Total Deaths" value="el?.deaths" color="#ff0000" virus="../../images/covid-red.svg" />
+            title="Total Deaths" key={country} value={deaths} color="#ff0000" virus="../../images/covid-red.svg" />
             <CountryData 
-            title="Total Recovered" value="{el?.cases}" color="#82c519" virus="../../images/covid-green.svg"/>
+            title="Total Recovered" key={country} value={recovered} color="#82c519" virus="../../images/covid-green.svg"/>
             <CountryData 
-            title="Total Active" value="{el?.active}" color="#2c6dff" virus="../../images/covid-blue.svg"/>
+            title="Total Active" key={country} value={active} color="#2c6dff" virus="../../images/covid-blue.svg"/>
             <CountryData 
-            title="New Cases" value="{el?.todayCases}" color="#ff6a07" virus="../../images/covid-orange.svg"/>
+            title="New Cases" key={country} value={todayCases} color="#ff6a07" virus="../../images/covid-orange.svg"/>
             <CountryData 
-            title="New Deaths" value="{el?.todayDeaths}" color="#b70202" virus="../../images/covid-redark.svg"/>
+            title="New Deaths" key={country} value={todayDeaths} color="#b70202" virus="../../images/covid-redark.svg"/>
+          
           
           </div>
           <img src="../images/mapamundi.png"></img>
@@ -60,9 +77,9 @@ const Tracker1 = () => {
         </footer>
             
         </>
-  
-  )
+    )
 }
+
 
 export default Tracker1
 

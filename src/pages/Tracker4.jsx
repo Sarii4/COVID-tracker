@@ -4,8 +4,8 @@ const Tracker4 = ({children}) => {
   return (
     <div> 
       <h1>En contrucción</h1>
-      <img src="../../images/obreroVirus.png"></img>
-      
+        <img src="../../images/obreroVirus.png"></img>
+
     </div>
 
   )

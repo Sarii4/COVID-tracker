@@ -37,7 +37,7 @@ const Layout = ({children}) => {
                 <article>
                     <h2>Top 10 Country</h2>
                     {topTencountries?.map((el) => 
-                    <TopTen key={0} flag={el?.countryInfo?.flag} country={el?.country} value={el?.cases}/> )}; 
+                    <TopTen key={el?.id} flag={el?.countryInfo?.flag} country={el?.country} value={el?.cases}/> )}; 
                 </article>
             </aside>
             <main>
